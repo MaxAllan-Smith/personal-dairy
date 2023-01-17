@@ -14,5 +14,11 @@ class PersonalDiary
       return "One Two Three Four Five ..."
     end
   end
+
+  def count_words(str)
+    splitResult = str.split(" ")
+
+    return splitResult.length
+  end
   
 end
